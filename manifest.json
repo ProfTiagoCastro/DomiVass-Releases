@@ -1,7 +1,183 @@
 {
-    "version":  "1.0.2",
-    "installer":  "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.2/DomiVass-Setup-1.0.2.exe",
-    "size":  483596060,
-    "sha1":  "3e838745477adec99beee55d44a2d78b13014ad6",
-    "notes":  "Atualização sem janela de instalador e limpeza do download."
+  "version": "1.0.3",
+  "installer": "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.3/DomiVass-Setup-1.0.3.exe",
+  "size": 426278040,
+  "sha1": "a0d2b691fca9d0c410b3f26c1982d70f8911598e",
+  "notes": "Nova forma de atualizar: o jogo baixa só o que mudou.",
+  "files": [
+    {
+      "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
+      "size": 2232688,
+      "sha1": "2ff915aebd206c08a31e3c8e084131fccacc174e",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/MsQuic/v220/win64/msquic.dll",
+      "size": 2547080,
+      "sha1": "6440987a360403232da015f521957c3b05a9f867",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.x64.dll",
+      "size": 5799016,
+      "sha1": "ada5d6378f1975b8163cca2062fbcf5f2c935fec",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll",
+      "size": 59832,
+      "sha1": "30ccdc6f9af91b125d98645cb097cabf60ae85e7",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll",
+      "size": 1724856,
+      "sha1": "ef0227f5af11446344736cbb688fd68ab662571b",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll",
+      "size": 48568,
+      "sha1": "bb55b15cec34ce54fe48425885bf455cf6778600",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll",
+      "size": 858152,
+      "sha1": "7e8ed89050e3e1333fc885e6592ee929268ab491",
+      "url": ""
+    },
+    {
+      "path": "Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll",
+      "size": 19542416,
+      "sha1": "d9a83b76d58d1dcc0b9b136bf9cc1cc35d02ba99",
+      "url": ""
+    },
+    {
+      "path": "Engine/Config/StagedBuild_ProjetoDomino.ini",
+      "size": 3,
+      "sha1": "57218c316b6921e2cd61027a2387edc31a2d9471",
+      "url": ""
+    },
+    {
+      "path": "Engine/Content/Renderer/TessellationTable.bin",
+      "size": 259568,
+      "sha1": "3a3402ca2d3531ab8352c818ea1181288bd78c72",
+      "url": ""
+    },
+    {
+      "path": "Engine/Content/Slate/Cursor/invisible.cur",
+      "size": 326,
+      "sha1": "b8133a27e01a74cd5936a544b4473e77d13da618",
+      "url": ""
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.tps",
+      "size": 930,
+      "sha1": "57161fd8fcfc3e071179f48a9df67971c2dcc94b",
+      "url": ""
+    },
+    {
+      "path": "Engine/Content/SlateDebug/Fonts/LastResort.ttf",
+      "size": 5395052,
+      "sha1": "e4cd182c152c7d50c0ca230c86033d63b3fbd057",
+      "url": ""
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/vc_redist.arm64.exe",
+      "size": 11751688,
+      "sha1": "4fa87ab45c5f3a96777fcfbf160be97c408ab530",
+      "url": ""
+    },
+    {
+      "path": "Engine/Extras/Redist/en-us/vc_redist.x64.exe",
+      "size": 18569648,
+      "sha1": "55c34ad9c569a166663b3228467980867fe6fd9f",
+      "url": ""
+    },
+    {
+      "path": "Engine/Plugins/NNE/NNERuntimeORT/Binaries/ThirdParty/Onnxruntime/Win64/onnxruntime.dll",
+      "size": 17339384,
+      "sha1": "6536e82721d0aed9e593fc168456b051b19e912d",
+      "url": ""
+    },
+    {
+      "path": "NOTICES.txt",
+      "size": 111,
+      "sha1": "e0ebddf80347f3f0740cb6781f300047dc197e3e",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino.exe",
+      "size": 229888,
+      "sha1": "b3ea653e7e1392567eb6e3b2bfdc27227b668f43",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/D3D12/x64/D3D12Core.dll",
+      "size": 4831768,
+      "sha1": "e65c06c41f4a305c4d4e67e415f4f2368c6620de",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/D3D12/x64/d3d12SDKLayers.dll",
+      "size": 4943344,
+      "sha1": "ca9f5a183743c19407ee25dc1f33a7d89bdc1009",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/DML/x64/DirectML.dll",
+      "size": 18538488,
+      "sha1": "e97ac28348fd0d7d70571c5b9560883626590e08",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/ProjetoDomino-Win64-Shipping.exe",
+      "size": 167135744,
+      "sha1": "d9358cacaf1088ad72a40d1f8eddeafd9555bc95",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/tbb12.dll",
+      "size": 342456,
+      "sha1": "58c2e802c62584fb89717a2a2ae04b3a75a2c76d",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Binaries/Win64/tbbmalloc.dll",
+      "size": 117176,
+      "sha1": "3f1f16293d5d79cc8174b0a0862020bd3af82704",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Content/Paks/ProjetoDomino-Windows.pak",
+      "size": 11855444,
+      "sha1": "f3bc6d37fdd88546efed5f9ba399d6513694b5dc",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Content/Paks/ProjetoDomino-Windows.ucas",
+      "size": 286998816,
+      "sha1": "7312a051c3a581c33d90c2a973f5d75f36a319b9",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Content/Paks/ProjetoDomino-Windows.utoc",
+      "size": 280900,
+      "sha1": "dbcc64668757d5ff85dac2e1225cdbd04229faa7",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Content/Paks/global.ucas",
+      "size": 3309760,
+      "sha1": "d5a1213ec11d9a6056d4f496ee7829a22d63c0b0",
+      "url": ""
+    },
+    {
+      "path": "ProjetoDomino/Content/Paks/global.utoc",
+      "size": 806,
+      "sha1": "c943b9fc52743853cba58d0a7d49a2354d150444",
+      "url": ""
+    }
+  ]
 }
