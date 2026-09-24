@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.0",
-    "installer":  "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.0/DomiVass-Setup-1.0.0.exe",
-    "size":  483576426,
-    "sha1":  "a459343f358f644aa77444077f56dc28e9766b22",
-    "notes":  "Primeira versão do DomiVass."
+  "version": "1.0.0",
+  "installer": "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.0/DomiVass-Setup-1.0.0.exe",
+  "size": 483576491,
+  "sha1": "192c57b2ebe1862b2f6f4f466ee16c78af1b47e6",
+  "notes": "Primeira versão do DomiVass."
 }
