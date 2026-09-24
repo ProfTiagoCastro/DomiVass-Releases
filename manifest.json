@@ -1,9 +1,9 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "installer": "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.3/DomiVass-Setup-1.0.3.exe",
   "size": 426278040,
   "sha1": "a0d2b691fca9d0c410b3f26c1982d70f8911598e",
-  "notes": "Nova forma de atualizar: o jogo baixa só o que mudou.",
+  "notes": "Teste da atualização só do que mudou.",
   "files": [
     {
       "path": "Engine/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
@@ -152,8 +152,8 @@
     {
       "path": "ProjetoDomino/Content/Paks/ProjetoDomino-Windows.pak",
       "size": 11855444,
-      "sha1": "f3bc6d37fdd88546efed5f9ba399d6513694b5dc",
-      "url": ""
+      "sha1": "1cf0d708ae1019ec98ff54eb4e5f7264a4004109",
+      "url": "https://github.com/ProfTiagoCastro/DomiVass-Releases/releases/download/v1.0.4/ProjetoDomino--Content--Paks--ProjetoDomino-Windows.pak"
     },
     {
       "path": "ProjetoDomino/Content/Paks/ProjetoDomino-Windows.ucas",
